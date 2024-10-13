@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTests(failed)">
+    <classes>
+      <class name="com.crm.qa.tests.LoginPageTests">
+        <methods>
+          <include name="loginPage_loginWithValidCred_Success"/>
+          <include name="setup"/>
+          <include name="testOnTestFailureWithinTestPercentage"/>
+          <include name="tearDown"/>
+          <include name="testTimeOutinItestListeners"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.LoginPageTests -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [SmokeTests] -->
