@@ -22,7 +22,7 @@ public class ContactsPageTests extends TestBase {
 		initialization();
 		LoginPage loginPage = new LoginPage(driver);
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		//test comment
+		//test comment for intelliJ
 	}
 
 	@Test
